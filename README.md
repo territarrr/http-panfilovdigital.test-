@@ -20,6 +20,7 @@
 ##### **Решение:**
 Решением является создание кастомного условия для правил работы с корзиной.
 В файле init.php подключаю custombasketrules.php и в админке сайта могу создавать нужное мне правило.
+![Image alt](https://github.com/territarrr/panfilovdigital.tes/raw/master/media/rule.png)
 
 В итоге получаем рабочее решение
 
