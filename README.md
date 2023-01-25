@@ -19,11 +19,11 @@
 ****
 ##### **Решение:**
 Решением является создание кастомного условия для правил работы с корзиной.
-В файле init.php подключаю custombasketrules.php и в админке сайта могу создавать нужное мне правило.
-![Image alt](https://github.com/territarrr/panfilovdigital.tes/raw/master/media/rule.png)
+В файле local/php_interface/init.php подключаю local/php_interface/custombasketrules.php и в админке сайта могу создавать нужное мне правило.
+![Image alt](https://github.com/territarrr/panfilovdigital.test/raw/master/media/rule.png)
 
 В итоге получаем рабочее решение
-
+![Image alt](https://github.com/territarrr/panfilovdigital.test/raw/master/media/basket.png)
 
 
 2. Практика
@@ -32,3 +32,11 @@
 
 ****
 ##### **Решение:**
+
+Решение расположено в файле local/php_interface/sendForgetProductsEmail.php
+Созданы почтовое событие и шпблон в админке сайта
+![Image alt](https://github.com/territarrr/panfilovdigital.test/raw/master/media/event_type.png)
+![Image alt](https://github.com/territarrr/panfilovdigital.test/raw/master/media/email_template.png)
+
+Резултатом приходит письмо
+![Image alt](https://github.com/territarrr/panfilovdigital.test/raw/master/media/email_text.png)
